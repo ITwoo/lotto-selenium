@@ -4,11 +4,12 @@
   "description": "",
   "main": "lotto_selenium.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chromedriver": "^96.0.0",
     "selenium-webdriver": "^4.0.0"
   }
 }

@@ -1,8 +1,9 @@
 const { Builder, By, Key, until } = require('selenium-webdriver');
 const chrome = require('selenium-webdriver/chrome');
-const chromedriver = require('chromedriver');
 
 chrome.setDefaultService(new chrome.ServiceBuilder(chromedriver.path).build());
+const chromedriver = require('chromedriver');
+
 
 const url = 'https://dhlottery.co.kr/gameResult.do?method=allWin';
 // https://dhlottery.co.kr/gameResult.do?method=allWin
@@ -19,7 +20,7 @@ const url = 'https://dhlottery.co.kr/gameResult.do?method=allWin';
     console.log('--------------------')
     await driver.wait(() => { return false; }, 4000);
 
-  }catch(err) {
+  } catch (err) {
     console.log('error');
     console.log(err);
   }
