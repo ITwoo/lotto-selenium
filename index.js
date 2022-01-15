@@ -1,3 +1,5 @@
-import crolling from './lotto_selenium';
+const fuc = require('./xls')
+const write = require('./write')
 
-crolling();
+const array = fuc();
+write(array);

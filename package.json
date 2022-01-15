@@ -4,12 +4,15 @@
   "description": "",
   "main": "lotto_selenium.js",
   "scripts": {
-    "start": "index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chromedriver": "^96.0.0",
-    "selenium-webdriver": "^4.0.0"
+    "lodash": "^4.17.21",
+    "node-html-parser": "^5.2.0",
+    "selenium-webdriver": "^4.0.0",
+    "xlsx": "^0.17.4"
   }
 }
